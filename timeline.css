@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;  
+     
+}
+.slider
+{
+    position: absolute;
+    background-image: linear-gradient(to left ,rgb(238, 211, 156) , rgb(236, 202, 134) ,rgb(245, 205, 125) );
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+
+    
+    
+}
+nav
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    align-items: center;
+    min-height: 50px;
+    
+}
+nav .logo
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav img
+{
+    grid-column: 4;
+    height: 30px;
+    width: 30px;
+    justify-self: center;
+
+    
+}
+section
+{
+    margin-top: 20px;
+    height: 500px ;
+    width: 100%;
+    
+
+}
+section .comment
+{
+    position: absolute;
+    top: 72%;
+    left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(37, 37, 31);
+}
+/* desert */
+section  img
+{
+    
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    
+
+    
+}
